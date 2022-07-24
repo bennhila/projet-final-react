@@ -1,0 +1,100 @@
+.decoration{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.text{
+    font-size: 20PX;
+    margin-left: 20px ;
+    list-style: none;
+}
+.textPosition{
+    display: flex;
+    
+}
+;.listProduit{
+    font-size: 20PX;
+    margin-left: 20px ;
+    position: relative;
+    
+   
+}
+.listSub{
+    font-size: 15PX;
+    list-style: none;
+    background-color: aliceblue;
+    border-radius: 10PX;
+    border:solid;
+    border-color: rgb(255, 157, 0);
+    padding: 7px;
+    position: absolute;
+    top: 60PX;
+    width: 50PX;
+    text-align: center;
+    
+    display: none;
+
+}
+.listProduit:hover{
+    border-bottom: solid;
+    border-color:  rgb(255, 157, 0);
+    padding: 7px;
+    box-shadow: 0 0 5PX;
+    border-radius: 5PX;
+    
+
+}
+.linkSub:hover{
+    border-bottom: solid;
+    border-color:  rgb(255, 157, 0);
+    padding: 7px;
+    box-shadow: 0 0 1PX;
+    border-radius: 5PX;
+    
+}
+.listProduit:hover .listSub{
+    display: block;
+}
+
+
+
+
+.contactList:hover{
+    border-bottom: solid;
+    border-color:  rgb(255, 157, 0);
+    padding: 7px;
+    box-shadow: 0 0 5PX;
+    border-radius: 5PX;
+
+}
+.contactSub{
+    display: none;    
+    font-size: 10PX;
+    list-style: none;
+    background-color: aliceblue;
+    border-radius: 10PX;
+    border:solid;
+    border-color: rgb(255, 157, 0);
+    padding: 7px;
+    position: absolute;
+    top: 44PX;
+    width: 70PX;
+    text-align: center;
+    left: -5PX;
+    
+}
+
+.contactList:hover .contactSub{
+    display: block;
+}
+.contactList{
+    position: relative;
+}
+.contactSub:hover{
+    border-bottom: solid;
+    border-color:  rgb(255, 157, 0);
+    padding: 7px;
+    
+
+    border-radius: 5PX;
+}

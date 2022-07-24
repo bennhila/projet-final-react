@@ -1,0 +1,51 @@
+.btn{
+    margin-left: 30px;
+    background-color: aliceblue;
+    border-radius: 15PX;
+}
+.logInAndPanier{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.modal{
+    position: absolute;
+    z-index: 1;
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 10PX;
+    border-color:  rgb(255, 157, 0);
+    padding: 7PX;
+    width: 30%;
+    height: auto;
+     margin-top: 7%;
+    margin-left: -40%; 
+}
+.title{
+    text-align: center;
+}
+.formation{
+    width: 98%;
+    margin-top: 2%;
+    border: solid;
+    border-color:  rgb(255, 157, 0);
+    border-radius: 15PX;
+    text-align: center;
+    background-color: aliceblue;
+}
+.btnModal{
+
+    
+    border: solid;
+    border-radius: 10PX;
+    background-color: aliceblue;
+    border-color:  rgb(255, 157, 0);
+    margin-left: 2%;
+    
+
+
+}
+.buttonModal{
+    margin-top: 2%;
+    margin-left: 74%;
+
+}

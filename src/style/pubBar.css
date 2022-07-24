@@ -1,0 +1,18 @@
+.pub{
+    height: 50px;
+    background-color: rgb(255, 157, 0);
+    font-family: cursive;
+    padding: 3Px;
+    animation:myPub 11s infinite ;
+    width: 100%;
+}
+.back{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 157, 0);
+margin-top: -60PX;
+}
+@keyframes myPub {
+    0% {transform:translate(-30%,0);}
+    100% {transform:translate(100%,0);}
+}

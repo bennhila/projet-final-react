@@ -1,0 +1,45 @@
+.divBorder{
+    width: 18rem;
+    height: 32rem;
+    border: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+    border: solid;
+    border-color:  rgb(255, 157, 0);
+    border-radius: 7PX;
+    margin-left: 3%; 
+    margin-top: 1%;
+}
+.img{
+    width: 18rem ;
+    height: 17REM;
+    border-radius: 7PX;
+}
+.divPrice{
+    color: rgb(255, 157, 0);
+}
+.flex{
+    display: flex;
+    margin-top: 1rem;
+    margin-left:    5rem ;
+}
+.btnCard{
+    height: 20PX;
+    margin-left:10PX ;
+    margin-right: 10PX;
+    margin-top: 8%;
+    background-color: aliceblue;  
+    border: solid;
+
+     border-color:  rgb(255, 157, 0);
+     border-radius: 10PX;
+}
+ .textligne{
+    margin-left: 5%;
+    margin-top: 10%;
+   
+}
+.flexCard{
+     display: flex;
+    flex-Wrap: wrap; 
+} 
